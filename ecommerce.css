@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    font-family: 'poppins';
+    padding: 0%;
+    margin: 0%;
+}
+h1{
+    margin-top: 5px;
+}
+body{
+    background-color:white
+}
+header{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 130px;
+    background-color: rgb(53, 56, 55);
+}
+.nav{
+    display: flex;
+    
+
+}
+.logo h1{
+    margin-left: 50px;
+    width: 300px;
+    margin-top: 5px;
+    color: rgb(202, 129, 40);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+.logo a{
+    padding-left:50px;
+    text-decoration: none;
+    color: rgb(165, 65, 42);
+}
+span{
+    color:  rgb(188, 188, 209)  ;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.liste ul{
+    display: flex;
+    margin-left: 70px;
+    list-style: none;
+    margin-top: 15px;
+   
+ 
+}
+ul li a {
+    padding-left: 15px;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 30px;
+    color: aliceblue;
+}
+ul li a:hover{
+    background-color: bisque;
+    color: orange;
+    border-radius: 10px;
+}
+/*fin de l'entete*/
+.presentation{
+    display: flex;
+}
+.corps{
+    margin-top: 20px;
+    background-image: url(top-view-pepperoni-pizza-with-mushroom-sausages-bell-pepper-olive-corn-black-wooden_141793-2158.jpg);
+    background-size: cover;
+}
+ .fleurs img{
+width: 33vh;
+height: 250px;
+
+margin-left: 8vh;
+margin-top: 2vh;
+transition: tronsform .5s;
+border: 7px solid aliceblue;
+}
+.fe1{
+    margin-left: 55px;
+}
+.nom{
+    
+    color: rgb(119, 20, 20);
+}
+.affiche{
+    background-color: rgb(172, 163, 181);
+    width: 70vh;
+    height: 65vh;
+     margin-top: 55px;
+   /* margin-left: 3vh;
+   
+    background-color: white;
+    box-shadow: 20px 20px  20px 20px  rgba(0,0,0 ,.15);*/
+}
+.button1{
+    margin-left: 60px;
+    font-size: 15px;
+    color: black;
+    background-color: aqua;
+}
+/*partie du footer*/
+.piedpage ul{
+    display: flex;
+    margin-left: 70px;
+    list-style: none;
+    margin-top: 5px;
+   height: 110px;
+   padding-top: 40px;
+ 
+}
+/*
+ul li a {
+    padding-left: 15px;
+    text-decoration: none;
+    margin-left: 45px;
+    font-size: 30px;
+    color: rgb(40, 89, 132);
+}*/
+ul li a:hover{
+    background-color: rgb(130, 80, 19);
+    color: orange;
+    border-radius: 10px;
+}
+footer{
+    background-color: rgb(57, 51, 51);
+}
